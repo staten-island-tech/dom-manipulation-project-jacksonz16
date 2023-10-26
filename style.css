@@ -37,9 +37,12 @@ border-color: #0051BA;
 color: #FFDA1A;
   } 
   */
-  body{
-    background-color:yellow
-}
+  body {
+    box-sizing: border-box;
+    margin: 0;
+    background: linear-gradient(to bottom,white);
+    
+  }
 .card-parent{
     display: flex;
  justify-content: space-around;
