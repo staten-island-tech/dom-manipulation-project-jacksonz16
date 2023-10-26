@@ -1,5 +1,5 @@
 const DOMselectors = {
-    formA: document.getElementById("form-example"),
+
     container: document.getElementById("data"),
     button: document.getElementById("submit"),
     value1: document.querySelector(".input1"),
