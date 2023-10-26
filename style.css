@@ -1,4 +1,4 @@
-body {
+ /* body {
     box-sizing: border-box;
     margin: 0;
     background: linear-gradient(to bottom,white);
@@ -35,5 +35,46 @@ font-family: 'Ultra', serif;
     margin-bottom: 5%;
 border-color: #0051BA;
 color: #FFDA1A;
-  }
+  } 
+  */
+  body{
+    background-color:yellow
+}
+.card-parent{
+    display: flex;
+ justify-content: space-around;
+    flex-direction: row;
 
+}
+#data{
+    color: white;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+    border: white solid 1px;
+    border-width: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 2% ;
+    height: 20rem;
+    width: 15rem;
+
+
+}
+
+#newbox{
+    right: auto;
+    color: white;
+    background-color: red;
+    align-items: center;
+    text-align: center;
+    border: white solid 1px;
+    border-width: 3px;
+    padding: 3px;
+    border-radius: 5px;
+    margin: 2% ;
+    height: 20rem;
+    width: 15rem;
+ 
+
+}
