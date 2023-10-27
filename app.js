@@ -22,7 +22,11 @@ const DOMselectors = {
       `
     );
   }
-  
+  function clearoldinputs(){
+    DOMselectors.value1.value="";
+    DOMselectors.value2.value="";
+    DOMselectors.value3.value="";
+  }
   function erase() {
     let remove = document.querySelectorAll(".btn");
     remove.forEach((button) => {
@@ -35,5 +39,6 @@ const DOMselectors = {
     box.preventDefault();
      create();
      erase();
+     clearoldinputs();
    });
    console.log(DOMselectors);
